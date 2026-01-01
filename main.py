@@ -52,5 +52,5 @@ arr9 = np.random.randn(2,3)    # create a 2x3 array with random values from a st
 print(arr9)
 
 # using np.random.randint()
-arr10 = np.random.randint(1,100,(2,3))   # (start , stop , dimension)   # create a 2x3 array with random integer values between 1 and 9
+arr10 = np.random.randint(1,100,(2,4))   # (start , stop , dimension)   # create a 2x3 array with random integer values between 1 and 9
 print(arr10)
