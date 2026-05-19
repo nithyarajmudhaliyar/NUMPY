@@ -1,15 +1,15 @@
 import numpy as np  
 
-# arr = np.array([1,2,3.1])    # if instead of 3.1 we put 3 numbers would be of int type and if '3' then of string type
-# print(arr)
-# print(type(arr))
+arr = np.array([1,2,3.1])    # if instead of 3.1 we put 3 numbers would be of int type and if '3' then of string type
+print(arr)
+print(type(arr))
 
-# lst = [1,2,3,4,5]
-# print(type(lst))
-# arr1 = np.array(lst)
-# print(arr1)
-# print(type(arr1))
-# print(arr1.dtype)
+lst = [1,2,3,4,5]
+print(type(lst))
+arr1 = np.array(lst)
+print(arr1)
+print(type(arr1))
+print(arr1.dtype)
 
 # Data type     Description        Example values
 # int32       32-Bit Integers     -1, 0, 1, 2, 3
