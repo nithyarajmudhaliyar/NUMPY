@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 # 1. Define the dataset as a dictionary
 data = {
-    "hours_studied":,
+    "hours_studied": [1, 2, 3, 4, 5, 6, 7, 8],
     "marks": [35, 40, 45, 50, 55, 65, 70, 80]
 }
 
