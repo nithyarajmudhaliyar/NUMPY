@@ -5,7 +5,7 @@ import numpy as np
 # ==========================================
 # If we mix types (e.g., ints and floats), NumPy upcasts to the most general type.
 # For example, 3.1 makes the array float type, '3' would make it string type.
-arr = np.array([1, 2, 3.1])
+arr = np.array([1,2,3.1])
 print(arr)
 print(type(arr))
 
@@ -13,7 +13,7 @@ print(type(arr))
 # ==========================================
 # 2. Conversion from Python Lists
 # ==========================================
-lst = [1, 2, 3, 4, 5]
+lst = [1,2,3,4,5]
 print(type(lst))
 
 arr1 = np.array(lst)
@@ -40,17 +40,17 @@ print(arr1.dtype)
 # ==========================================
 
 # 'S' or 'S' followed by length for string
-l_str = np.array([1, 2, 3], dtype="S")
+l_str = np.array([1,2,3],dtype="S")
 print(l_str)
 print(l_str.dtype)
 
 # 'i4' for 4-byte (32-bit) integer
-l_int = np.array([1, 2, 3], dtype="i4")
+l_int = np.array([1,2,3],dtype="i4")
 print(l_int)
 print(l_int.dtype)
 
 # 'f' for float
-l_float = np.array([1, 2, 3], dtype="f")
+l_float = np.array([1,2,3],dtype="f")
 print(l_float)
 print(l_float.dtype)
 
@@ -58,10 +58,10 @@ print(l_float.dtype)
 # ==========================================
 # 5. Type Casting (using astype)
 # ==========================================
-arr_cast = np.array([1, 2, 3, 4])
-print("Original dtype:", arr_cast.dtype)
+arr_cast = np.array([1,2,3,4])
+print("Original dtype:",arr_cast.dtype)
 
 # Cast the array to float32
 arr_cast = arr_cast.astype('float32')
 print(arr_cast)
-print("New dtype:", arr_cast.dtype)
+print("New dtype:",arr_cast.dtype)
