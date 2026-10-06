@@ -88,7 +88,10 @@ print(arr12)
 identity_matrix = np.eye(3)
 print(identity_matrix)
 
-arr_2d = np.array([[1,2,3],
-                   [4,5,6],
-                   [7,8,9]])
-print(arr_2d.shape)   # shape of a 2d array
+# Check shape of a 2d array
+arr_2d = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+print(arr_2d.shape)   # shape of a 2d array will print (3,3)
+
+# Check size of array
+size_arr = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+print(size_arr.size)  # size of array will print 10

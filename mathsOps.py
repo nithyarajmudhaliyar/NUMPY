@@ -46,7 +46,6 @@ print("Negative (ufunc):", np.negative(x))
 # ------------------------------------------------------------------------------
 # 2. MATRIX MULTIPLICATION & VECTOR PRODUCTS
 # ------------------------------------------------------------------------------
-print("\n=== 2. MATRIX & VECTOR PRODUCTS ===")
 
 # Matrix Product (@) -> np.matmul
 print("Matrix Mult (@):\n", matrix_a @ matrix_b)
@@ -55,16 +54,15 @@ print("Matrix Mult (ufunc):\n", np.matmul(matrix_a, matrix_b))
 # Dot Product -> np.dot (Inner product for vectors, matrix multiplication for 2D)
 vec_a = np.array([1, 2, 3])
 vec_b = np.array([4, 5, 6])
-print("Vector Dot Product:", np.dot(vec_a, vec_b))
+print("Vector Dot Product:", np.dot(vec_a, vec_b))   # formula : a.b = a[0]*b[0] + a[1]*b[1] + a[2]*b[2] ... + a[n-1]*b[n-1]
 
 # Cross Product -> np.cross
-print("Vector Cross Product:", np.cross(vec_a, vec_b))
+print("Vector Cross Product:", np.cross(vec_a, vec_b)) # formula : a x b = (a[1]*b[2] - a[2]*b[1])i - (a[0]*b[2] - a[2]*b[0])j + (a[0]*b[1] - a[1]*b[0])k
 
 
 # ------------------------------------------------------------------------------
 # 3. TRIGONOMETRIC & HYPERBOLIC FUNCTIONS
 # ------------------------------------------------------------------------------
-print("\n=== 3. TRIGONOMETRIC & HYPERBOLIC ===")
 
 angles = np.array([0, np.pi/2, np.pi])
 print("Sin:", np.sin(angles))
@@ -93,7 +91,6 @@ print("Tanh:", np.tanh(h_vals))
 # ------------------------------------------------------------------------------
 # 4. EXPONENTS AND LOGARITHMS
 # ------------------------------------------------------------------------------
-print("\n=== 4. EXPONENTS & LOGARITHMS ===")
 
 # Natural Exponential (e^x)
 print("Exp:", np.exp(x))
@@ -114,7 +111,6 @@ print("Log1p:", np.log1p(0.00001))
 # ------------------------------------------------------------------------------
 # 5. ROUNDING, FLOATS, & MODIFICATION
 # ------------------------------------------------------------------------------
-print("\n=== 5. ROUNDING & FLOATS ===")
 
 float_arr = np.array([-1.7, -1.2, 0.2, 1.5, 1.7, 2.3])
 
@@ -135,7 +131,6 @@ print("Truncate:", np.trunc(float_arr))
 # ------------------------------------------------------------------------------
 # 6. SUMS, PRODUCTS, DIFFERENCES & REDUCTIONS
 # ------------------------------------------------------------------------------
-print("\n=== 6. REDUCTIONS & DIFFERENCES ===")
 
 matrix_c = np.array([[1, 2], [3, 4]])
 
@@ -158,7 +153,6 @@ print("First Differences:", np.diff(diff_arr))
 # ------------------------------------------------------------------------------
 # 7. EXTREMA, ABSOLUTE, & LOGICAL MATHEMATICS
 # ------------------------------------------------------------------------------
-print("\n=== 7. EXTREMA & CLIPPING ===")
 
 mixed_arr = np.array([-10, -5, 0, 5, 10])
 
@@ -180,7 +174,6 @@ print("Clipped (Range 2 to 7):", np.clip(np.array([1, 3, 5, 8, 10]), 2, 7))
 # ------------------------------------------------------------------------------
 # 8. COMPLEX NUMBERS
 # ------------------------------------------------------------------------------
-print("\n=== 8. COMPLEX NUMBERS ===")
 
 complex_arr = np.array([1 + 2j, 3 - 4j])
 
