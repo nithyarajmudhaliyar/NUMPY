@@ -87,3 +87,8 @@ print(arr12)
 # Using np.eye() - Create an identity matrix
 identity_matrix = np.eye(3)
 print(identity_matrix)
+
+arr_2d = np.array([[1,2,3],
+                   [4,5,6],
+                   [7,8,9]])
+print(arr_2d.shape)   # shape of a 2d array
